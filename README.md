@@ -152,10 +152,6 @@ customButton.MouseButton1Click:Connect(additionalFeatures)
 
 -- Add color-changing feature to the RedX Executor UI
 
--- Function to change frame color randomly
-local function changeColor()
-    frame.BackgroundColor3 = Color3.new(math.random(), math.random(), math.random())
-end
 
 -- Create a Button for color change
 local colorButton = Instance.new("TextButton")
